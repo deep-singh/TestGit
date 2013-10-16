@@ -229,7 +229,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [@"MD" stringByAppendingString:[[object valueForKey:@"timeStamp"] description]];
+    cell.textLabel.text = [@"MD2" stringByAppendingString:[[object valueForKey:@"timeStamp"] description]];
 }
 
 @end
